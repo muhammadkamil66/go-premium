@@ -1,0 +1,54 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+section > .main{
+	width: 22%;
+	min-width: 250px;
+	background-color: white;
+    margin: 10px 8px;
+    text-align: center;
+
+}
+h2{
+	margin-bottom: 0px;
+}
+p{
+	padding: 15px;
+	border-bottom: 1px solid #eeeeee;
+}
+.basic{
+	background-color: black;
+	color: white;
+	padding: 15px;
+}
+.pro{
+	background-color: #53b050;
+	color: white;
+	padding: 15px;
+}
+.year{
+	background-color: #eeeeee;
+	color: black;
+	font-size: 25px;
+
+}
+#btn{
+	background-color: #eeeeee;
+	border-bottom: none;
+	padding: 15px;	
+}
+.gb{
+	margin-bottom: 0;
+    padding-bottom: 15px;
+}
+.btn{
+	border-radius: 0;
+	padding: 8px 28px;
+}
